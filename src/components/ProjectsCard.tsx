@@ -71,8 +71,8 @@ const ProjectCards: React.FC<ProjectCardProps> = ({ value, num }) => {
           </div>
         </CardContent>
 
-        {/* <CardFooter className="pt-2 "> */}
-          {/* {value.link && (
+        <CardFooter className="pt-2 ">
+          {value.link && (
             <Link
               href={value.link}
               target="_blank"
@@ -88,8 +88,8 @@ const ProjectCards: React.FC<ProjectCardProps> = ({ value, num }) => {
               Visit Project
               <ArrowUpRight className="h-4 w-4 ml-1 hidden group-hover:block -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-200" />
             </Link>
-          )} */}
-        {/* </CardFooter> */}
+          )}
+        </CardFooter>
       </Card>
     </FramerWrapper>
   );

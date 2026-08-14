@@ -253,6 +253,7 @@ export const portfolioConfig = {
       description:
         "Enhanced a Next.js wallet platform with responsive UI, API integrations, and middleware-based authentication across shop, payment, POS, and invoice modules. Improved stability and maintainability in a large-scale production codebase.",
       tags: ["Next.js", "React", "API Integration", "Authentication"],
+      link: "https://gateway-inky.vercel.app/",
     },
     {
       title: "Ticketing Platform",
