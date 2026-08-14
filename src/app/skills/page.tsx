@@ -9,7 +9,6 @@ import { portfolioConfig } from "@/config/portfolio.config";
 const skillPage = () => {
   const { additional } = portfolioConfig.skills;
 
-  // تیترهای تمیز برای نمایش بخش‌های additional
   const additionalCategories = [
     { title: "State Management", items: additional.stateManagement },
     { title: "Forms & Validation", items: additional.formsValidation },
